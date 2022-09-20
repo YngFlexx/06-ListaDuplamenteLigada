@@ -183,3 +183,9 @@ void excluirUltimoElemento()
 		ultimo->ant = NULL;
 	}
 }
+
+
+
+
+
+

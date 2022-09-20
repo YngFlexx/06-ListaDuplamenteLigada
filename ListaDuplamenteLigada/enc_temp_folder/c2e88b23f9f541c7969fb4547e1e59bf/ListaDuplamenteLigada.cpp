@@ -179,7 +179,13 @@ void excluirUltimoElemento()
 {
 	NO* paraExcluir = ultimo;
 	if (ultimo == NULL); {
-		ultimo = paraExcluir->ant;
+		ultimo = paraExcluir->prox;
 		ultimo->ant = NULL;
 	}
 }
+
+
+
+
+
+
